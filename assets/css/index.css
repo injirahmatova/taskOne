@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+#sectionOne {
+
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.text {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+
+span {
+    font-style: italic;
+}
+
+p {
+    text-align: justify;
+    width: 55%;
+    margin-top: 20px;
+
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img {
+    width: 90%;
+}
+
+#sectionTwo {
+    width: 100%;
+    height: 700px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerTwo {
+    width: 80%;
+    padding: 40px 0 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.containerTwo .content {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+.containerTwo .content h2 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ddd;
+ 
+}
+
+.content p {
+text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    color: #ddd;
+    margin-bottom: 25px;
+}
+
+.ul {
+    width: 95%;
+    padding: 8px 16px;
+    border: 2px solid white;
+    background-color: white;
+    
+}
+
+.li {
+    width: 100%;
+    padding: 8px 16px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(117, 117, 117);
+    position: relative;
+}
+
+.li li {
+    text-align: start;
+    border-bottom: 1px solid #ddd;
+}
+
+.li .span {
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    background-color: #F44336;
+    margin-left: 15px;
+    padding: 4px 2px 4px 2px;
+}
+
+.li .number {
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 5px 6px 5px 6px;
+    position: absolute;
+    right: 35px;
+}
+
+.photo {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo .photoOne {
+    width: 90%;
+    margin-top: 10px;
+}
+
+.photo .photoOne img {
+    width: 90%;
+    margin-top: 25px;
+}
+
+.photoOne .cardBox {
+    background-color: #fff;
+    width: 90%;
+    padding: 15px;
+
+  
+}
+
+.photoOne .cardBox h4 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.photoOne .cardBox span {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.photoOne .cardBox p {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10px;
+    text-align: start;
+}
+
+.photoOne .cardBox button {
+    width: 45%;
+    padding: 5px 0 5px 0;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+}
+
+.photoOne .cardBox button:hover {
+    cursor: pointer;
+    transition: .2s;
+    background-color: #CCCCCC;
+    color: #000000;
+    border: none;
+}
